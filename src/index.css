@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+* {
+  font-family: "Kalam", cursive;
+  font-size: large;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  background-image: url("https://linkdeal.com/wp-content/uploads/2023/10/authority-backlinks-and-how-to-get-them.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+button{
+  width: 30%;
+  padding: 5px;
+  background: url("https://media.istockphoto.com/id/1164419333/photo/wood-texture-background-high-quality-and-high-resolution-studio-shoot.jpg?s=612x612&w=0&k=20&c=2oTMXUKdmyjqNROtppmbmfk0l6Mq8zyXRDjJAU_9oGQ=");
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50px !important;
+  z-index: 1;
+  transition: filter 0.2s, transform 0.3s, box-shadow 0.3s;
+}
+button:hover{
+  filter: contrast(1.10);
+  transform:translate(0,-3px);
+  box-shadow: 5px 5px 10px black;
+}
+#root > p {
+  color: white;
+  text-shadow: 0 0 5px dimgray;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 30px 10px black;
+}
