@@ -44,7 +44,6 @@ class App extends React.Component {
       <>
         {this.state.show && <MyCard person={this.state.person} />}
         <button onClick={this.toggleShow}>toggle me!</button>
-        <p>Time since App mount: {this.state.mountedTime} seconds</p>
       </>
     );
   }

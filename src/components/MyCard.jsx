@@ -10,8 +10,8 @@ export default class MyCard extends Component {
   componentDidMount() {
     // Set up an interval to update cardMountedTime every second
     this.intervalId = setInterval(() => {
-      this.setState((prevState) => ({
-        cardMountedTime: prevState.cardMountedTime + 1,
+      this.setState(() => ({
+        cardMountedTime: this.state.cardMountedTime + 1,
       }));
     }, 1000);
   }
